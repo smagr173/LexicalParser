@@ -21,21 +21,22 @@ For example, the current lexeme can be returned or one can be added to the vecto
 The symbol table provides the tools needed for the parser to check the rules of the
 mini-grammar.
 ## Build & Usage
-This project can be built by using the GNAT compiler.
-Usage: gnatmake <filename>
-For this project, the 'parse.adb' file will be used to link the other files.
-Enter the following: gnatmake parse.adb
-This will create an executable file named 'parse' that can be ran with './'
-Enter the following to run the executable: ./parse
+This project can be built by using the GNAT compiler.<br>
+Usage: gnatmake <filename><br>
+For this project, the 'parse.adb' file will be used to link the other files.<br>
+Enter the following: gnatmake parse.adb<br>
+This will create an executable file named 'parse' that can be ran with './'<br>
+Enter the following to run the executable: ./parse<br>
 This will then prompt you to enter the input program file, then the output file
 similar to how project 2 is used.
-<br/>
-Command line switches can be used by entering /E, /L, and /S with the file names.
-Echo file as it is processed:
- ./parse <InputFile> <OutputFile> /E
-Output lexemes to file that follows the /L
- ./parse <InputFile> <OutputFile> /L <OutputLexFile>
-Output symbol table to file that follows the /S
- ./parse <InputFile> <OutputFile> /S <OutputSymFile>
+<br>
+Command line switches can be used by entering /E, /L, and /S with the file names.<br>
+Echo file as it is processed:<br>
+ ./parse <InputFile> <OutputFile> /E<br>
+Output lexemes to file that follows the /L<br>
+ ./parse <InputFile> <OutputFile> /L <OutputLexFile><br>
+Output symbol table to file that follows the /S<br>
+ ./parse <InputFile> <OutputFile> /S <OutputSymFile><br>
+ <br>
 ## Known Issues
 When the identifier is missing in Read or Write the line number for the error is incorrect.
