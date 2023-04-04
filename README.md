@@ -1,5 +1,5 @@
 # Lexical Analyzer & Parser
-ADA program that performs a scan and parse of a code file, checking its adherence to syntax rules<br/>
+Ada program that performs a scan and parse of a code file, checking its adherence to syntax rules<br/>
 - Uses recursive descent method
 - Outputs any errors found, along with a description and line number
 ## Parser Design
