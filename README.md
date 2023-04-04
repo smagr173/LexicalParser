@@ -37,6 +37,3 @@ Command line switches can be used by entering /E, /L, and /S with the file names
  ./parse <InputFile> <OutputFile> /L <OutputLexFile><br>
 **Output symbol table to file that follows the /S**<br>
  ./parse <InputFile> <OutputFile> /S <OutputSymFile><br>
- <br>
-## Known Issues
-When the identifier is missing in Read or Write the line number for the error is incorrect.
