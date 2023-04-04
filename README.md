@@ -25,9 +25,11 @@ This project can be built by using the GNAT compiler.<br>
 **Usage:** gnatmake <filename><br>
  <br>
 For this project, the 'parse.adb' file will be used to link the other files.<br>
-**Enter the following:** gnatmake parse.adb<br>
+**Enter the following:**<br>
+gnatmake parse.adb<br>
 This will create an executable file named 'parse' that can be ran with './'<br>
-**Enter the following to run the executable:** ./parse<br>
+**Enter the following to run the executable:**<br>
+./parse<br>
 This will then prompt you to enter the input program file, then the output file
 <br>
 Command line switches can be used by entering /E, /L, and /S with the file names.<br>
