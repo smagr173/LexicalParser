@@ -22,14 +22,14 @@ The symbol table provides the tools needed for the parser to check the rules of 
 mini-grammar.
 ## Build & Usage
 This project can be built by using the GNAT compiler.<br>
-**Usage:**<br>
+**Usage:**
 ```gnatmake <filename>```<br>
  <br>
 For this project, the 'parse.adb' file will be used to link the other files.<br>
-**Enter the following:**<br>
+**Enter the following:**
 ```gnatmake parse.adb```<br>
 This will create an executable file named 'parse' that can be ran with './'<br>
-**Enter the following to run the executable:**<br>
+**Enter the following to run the executable:**
 ```./parse```<br>
 This will then prompt you to enter the input program file, then the output file
 <br>
